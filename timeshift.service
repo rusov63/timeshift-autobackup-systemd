@@ -1,0 +1,13 @@
+# /etc/systemd/system/timeshift.service
+
+[Unit]
+Description=**Создание Timeshift снимка**
+
+[Service]
+Type=oneshot
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=timeshift_service
+
+ExecStart=/usr/bin/timeshift --create --comments "Автоматический снимок"

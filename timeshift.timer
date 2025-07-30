@@ -1,0 +1,15 @@
+# /etc/systemd/system/timeshift.timer
+
+
+[Unit]
+Description=**Запуск Timeshift ежедневно**
+
+[Timer]
+OnCalendar=*-*-* 18:00:00
+AccuracySec=1h
+Persistent=true
+Unit=timeshift.service
+
+
+[Install]
+WantedBy=timers.target
