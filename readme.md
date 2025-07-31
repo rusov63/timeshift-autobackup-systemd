@@ -126,14 +126,16 @@ sudo journalctl -u timeshift.service
 ├── etc/
 │ ├── systemd/
 │ │ └── system/
-│ │ ├── timeshift.service
-│ │ └── timeshift.timer
+│ │    ├── timeshift.service
+│ │    └── timeshift.timer
 │ └── timeshift/
 │ └── timeshift.json
 ├── timeshift/snapshots/ # Автоматически создаваемое хранилище снимков на диске
 └── readme.md
 ```
 
-## Контакты
-Если у вас есть вопросы или предложения, пожалуйста, свяжитесь со мной по адресу: rusov63@yahoo.com
+## 📬 Контакты
+Если у вас есть вопросы или предложения, пожалуйста, свяжитесь со мной:  
+📧 rusov63@yahoo.com  
+💬 [Telegram](https://t.me/your_username)
 
